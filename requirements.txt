@@ -1,1 +1,2 @@
 BeautifulSoup==3.2.1 
+pygooglechart==0.3.0
