@@ -1,6 +1,5 @@
 import urllib2
 from urlparse import urlparse, urlunparse
-from BeautifulSoup import BeautifulSoup
 from HTMLParser import HTMLParser
 from xml.dom.minidom import parseString
 from xml.dom import minidom
