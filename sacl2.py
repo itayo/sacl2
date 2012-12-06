@@ -4,7 +4,7 @@ from BeautifulSoup import BeautifulSoup
 from HTMLParser import HTMLParser
 from xml.dom.minidom import parseString
 from xml.dom import minidom
-debug=True
+debug=False
 
 def parseXML(data):
     ach = None
