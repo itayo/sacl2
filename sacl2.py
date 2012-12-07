@@ -5,7 +5,7 @@ from time import gmtime,strftime,localtime
 import xml.etree.ElementTree as ET
 import xlwt
 from datetime import datetime
-debug = True
+debug = False
 _ENTERING=1
 _EXITING=0
 def logger(func,status):
