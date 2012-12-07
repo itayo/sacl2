@@ -3,7 +3,7 @@ from sacl2 import *
 
 class TestSequenceOne(unittest.TestCase):
   def test_isDebugEnabled(self):
-    self.assertFalse(isDebug)
+    self.assertFalse(isDebug())
   def test_parseData(self):
     (done,todo) = parseXML(test=True)
     self.assertEqual(148,len(todo))
