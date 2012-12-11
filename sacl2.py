@@ -24,7 +24,8 @@ def parseXML(url='https://steamcommunity.com/profiles/76561198035378506/stats/Ci
     done = []
     todo = []
     print "data reding"
-    data = urllib2.urlopen(url).read()
+    if test == False:
+        data = urllib2.urlopen(url).read()
     print "data red"
     if test:
         f= open("testdata/test.html","r")
