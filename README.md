@@ -11,3 +11,5 @@ Commit guidelines
 =====
 * Merge requests will only be allowed to development, all others will be declined.
 * A passed travis-ci will be needed for a merge request to be accepted
+* A explaining pull-request is needed.
+* All new testcases needs to be specified in pull-request
