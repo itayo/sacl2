@@ -19,15 +19,18 @@ def logger(func,status):
     
 def isDebug():
      return debug
-def parseXML(url='https://steamcommunity.com/profiles/76561198035378506/stats/CivV?l=english&xml=1',test=False):
+def parseXML(url='https://steamcommunity.com/profiles/76561198035378506/stats/CivV?l=english&xml=1',test=False,proxy=None):
     logger(parseXML,_ENTERING)
     done = []
     todo = []
     print "data reding"
-    if test == False:
+    if proxy==None and test == False:
         data = urllib2.urlopen(url).read()
-    print "data red"
-    if test:
+    elif proxy != None and test == False:
+       proxy = urllib2.ProxyHandler()
+       ul2 = urllib2.build_opener(proxy)
+       data= ul2.open(url).read()
+    else:
         f= open("testdata/test.html","r")
         data = f.read()
         f.close()      
