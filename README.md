@@ -13,3 +13,4 @@ Commit guidelines
 * A passed travis-ci will be needed for a merge request to be accepted
 * A explaining pull-request is needed.
 * All new testcases needs to be specified in pull-request
+* Make sure that the code coverage for sacl2.py doesnt drop!!
