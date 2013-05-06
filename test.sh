@@ -1,6 +1,6 @@
 #!/bin/sh 
 coverage run test.py
 coverage run sacl2.py
-coverage repot *.py
-coverage annootate *.py
+coverage report *.py
+coverage annotate *.py
 cat *cover
