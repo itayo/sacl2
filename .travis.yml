@@ -7,5 +7,9 @@ python:
 # command to install dependencies
 install: "pip install -r requirements.txt --use-mirrors"
 # command to run tests
-script: coverage test.py
+script: coverage run test.py
+script: coverage run sacl2.py
+script: coverage repot *.py
+script: coverage annootate *.py
+script: cat *cover
 

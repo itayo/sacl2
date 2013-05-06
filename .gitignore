@@ -17,7 +17,8 @@ develop-eggs
 .installed.cfg
 lib
 lib64
-
+*,cover
+*.xls
 # Installer logs
 pip-log.txt
 
