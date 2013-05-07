@@ -12,7 +12,6 @@ notifications:
   irc:
     channels:
       - "irc.freenode.org#sacl2"
-      - "irc.freenode.org#itayo"
     template:
       - "%{repository} [%{branch}] (%{commit}) : %{message} %{foo} "
       - "Build details: %{build_url}"
