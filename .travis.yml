@@ -14,5 +14,5 @@ notifications:
       - "irc.freenode.org#sacl2"
       - "irc.freenode.org#itayo"
     template:
-      - "%{repository} (%{commit}) : %{message} %{foo} "
+      - "%{repository} [%{branch}] (%{commit}) : %{message} %{foo} "
       - "Build details: %{build_url}"
