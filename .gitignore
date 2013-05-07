@@ -1,5 +1,5 @@
 *.py[cod]
-
+*.local.sh
 # C extensions
 *.so
 *~
