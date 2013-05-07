@@ -9,13 +9,11 @@ debug = True
 _ENTERING=1
 _EXITING=0
 def logger(func,status):
-    if debug:
+    if isDebug():
         if status == _ENTERING:
             print "Entering",func
         if status == _EXITING:
             print "Exiting", func
-        
-        
     
 def isDebug():
      return debug
