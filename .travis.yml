@@ -8,4 +8,5 @@ python:
 install: "pip install -r requirements.txt --use-mirrors"
 # command to run tests
 script: "sh test.sh"
-
+notifications:
+  irc: "dreamhack.se.quakenet.org#travis"
